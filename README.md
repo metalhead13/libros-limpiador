@@ -1,4 +1,5 @@
 # Book Cleaner Agent
+# Libros-limpiador, papus remover de-lib jaja
 
 Python agent that reads files in `books`, strips pirate-site tags from filenames, and removes extra file metadata.
 
@@ -52,4 +53,3 @@ python -m unittest test_book_cleaner_agent.py
 - `Folder not found`: pass the full path to the books folder.
 - A file is skipped as incomplete: wait for the download to finish, then run the agent again.
 - Rename fails because the clean name already exists: the agent adds ` (2)`, ` (3)`, and so on.
-# libros-limpiador, papus s-lib jaja
